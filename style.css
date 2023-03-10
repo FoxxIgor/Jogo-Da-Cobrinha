@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(156, 240, 151);
+  font-family: 'Tilt Neon', cursive;
+  color:rgb(103, 128, 101);
+  overflow: hidden;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+}
+.header{
+  background-color: rgb(175, 203, 173);
+  border: 3px solid rgb(103, 128, 101);
+  width: 40%;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+#created{
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(175, 203, 173);
+  border: 3px solid rgb(103, 128, 101);
+  width: 100%;
+  margin: 0;
+  left: 0;
+}
+canvas {
+  border: 3px solid rgb(103, 128, 101);
+  border-radius: 15px;
+  background-color: #6fb376;
+}
